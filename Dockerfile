@@ -1,6 +1,6 @@
 FROM kalilinux/kali-rolling
 RUN apt update -y
-RUN apt install aria2
+RUN apt install aria2 -y
 RUN apt install jupyter -y
 
 COPY jupyter_notebook_config.json /root/.jupyter/jupyter_notebook_config.json
