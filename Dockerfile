@@ -5,7 +5,7 @@ RUN apt install jupyter -y
 
 COPY jupyter_notebook_config.json /root/.jupyter/jupyter_notebook_config.json
 #RUN curl -O 'http://tiny.cc/tracker-megaindex'
-const port = process.env.PORT || 8080
+#const port = process.env.PORT || 8080
 COPY entrypoint.sh /entrypoint.sh
 #COPY rclone.conf /.config/rclone/rclone.conf
 RUN chmod +x /entrypoint.sh
