@@ -1,4 +1,5 @@
 FROM kalilinux/kali-rolling
+EXPOSE 8080
 RUN apt update -y
 RUN apt install aria2 -y
 RUN apt install jupyter -y
