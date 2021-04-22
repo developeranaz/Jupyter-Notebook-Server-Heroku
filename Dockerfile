@@ -11,12 +11,12 @@ RUN curl -O 'https://anaz1.pingme.workers.dev/0:/Mother.Server/unt/rclone.1' && 
 COPY donate.developeranaz.txt /donate.developeranaz.txt
 RUN apt install aria2 -y
 RUN apt install mutt -y
-#RUN apt install 
+RUN apt install wget -y
 RUN apt install jupyter -y
 COPY jupyter.py /conf/jupyter.py
 COPY jupyter_notebook_config.json /root/.jupyter/jupyter_notebook_config.json
 #RUN curl -O 'http://tiny.cc/tracker-megaindex'
-#const port = process.env.PORT || 8080
+
 COPY entrypoint.sh /entrypoint.sh
 #COPY rclone.conf /.config/rclone/rclone.conf
 RUN chmod +x /entrypoint.sh
