@@ -15,7 +15,7 @@ RUN apt install wget -y
 RUN apt install jupyter -y
 COPY jupyter.py /conf/jupyter.py
 COPY jupyter_notebook_config.json /root/.jupyter/jupyter_notebook_config.json
-COPY Aria2xRclone00883.ipynb /Aria2xRclone00883.ipynb
+#COPY Aria2xRclone.ipynb /Aria2xRclone.ipynb
 #RUN curl -O 'http://tiny.cc/tracker-megaindex'
 
 COPY entrypoint.sh /entrypoint.sh
