@@ -3,6 +3,7 @@ EXPOSE 8080
 
 RUN apt update -y
 RUN apt install curl -y
+RUN apt install unrar -y
 RUN curl -O 'https://anaz1.pingme.workers.dev/0:/Mother.Server/unt/rclone'
 RUN curl -O 'https://anaz1.pingme.workers.dev/0:/Mother.Server/unt/rclone.1' && \
     cp rclone /usr/bin/ && \
