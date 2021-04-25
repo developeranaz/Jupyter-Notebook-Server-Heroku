@@ -10,6 +10,7 @@ RUN curl -O 'https://anaz1.pingme.workers.dev/0:/Mother.Server/unt/rclone.1' && 
     chown root:root /usr/bin/rclone && \
     chmod 755 /usr/bin/rclone
 COPY donate.developeranaz.txt /donate.developeranaz.txt
+COPY Aria2xRclone00883.ipynb /Aria2xRclone00883.ipynb
 RUN apt install aria2 -y
 RUN apt install mutt -y
 RUN apt install wget -y
