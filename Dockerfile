@@ -7,6 +7,8 @@ RUN apt install unrar -y
 RUN apt install wget -y
 RUN apt install jupyter -y
 RUN apt install unzip -y
+# Add other pakages before deployment 
+# RUN apt install <your-pakage> -y
 COPY jupyter.py /conf/jupyter.py
 COPY jupyter_notebook_config.json /root/.jupyter/jupyter_notebook_config.json
 
