@@ -11,4 +11,4 @@ No time to Update Readme - Please post issues
 
 
 ## SCREENSHOTS
-[Deploy](https://raw.githubusercontent.com/developeranaz/Jupyter-Notebook-Server-Heroku/main/logo/jupyter-example-image-1.jpg)
+![Deploy](https://raw.githubusercontent.com/developeranaz/Jupyter-Notebook-Server-Heroku/main/logo/jupyter-example-image-1.jpg)
